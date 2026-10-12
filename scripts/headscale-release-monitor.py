@@ -15,7 +15,7 @@ import subprocess
 import sys
 from urllib.request import urlopen
 
-REPOSITORY = "Chas-Challenge-Team5/itsx25-infra"
+REPOSITORY = "ITSX25-Chas/itsx25-infra"
 UPSTREAM = "juanfont/headscale"
 SOURCE_PATH = "headscale/setup.py"
 ROOT = Path(__file__).resolve().parents[1]
@@ -154,7 +154,7 @@ def publish(source, updated, target, body):
         head = pr["head"]
         if (head.get("repo") or {}).get("full_name") == REPOSITORY and head["ref"].startswith("automation/headscale-v"):
             return f"Existing update awaits review: {pr['html_url']}"
-    previous = github(f"{prefix}/pulls?state=all&head=Chas-Challenge-Team5:{branch}&per_page=100", paginate=True)
+    previous = github(f"{prefix}/pulls?state=all&head=ITSX25-Chas:{branch}&per_page=100", paginate=True)
     if previous:
         return f"This version already has a PR; reopen it if needed: {previous[0]['html_url']}"
 

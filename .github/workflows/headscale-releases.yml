@@ -14,7 +14,7 @@ concurrency:
 
 jobs:
   propose-update:
-    if: github.repository == 'Chas-Challenge-Team5/itsx25-infra' && github.ref == 'refs/heads/main'
+    if: github.repository == 'ITSX25-Chas/itsx25-infra' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     timeout-minutes: 15
     permissions:

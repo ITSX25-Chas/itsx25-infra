@@ -95,7 +95,7 @@ Prov med verklig signerad digest (ersätt värdet):
 
 ```bash
 sudo kubectl run test-signed --namespace=workshop-signature-check \
-  --image=ghcr.io/chas-challenge-team5/company-website@sha256:REPLACE_WITH_SIGNED_DIGEST \
+  --image=ghcr.io/itsx25-chas/company-website@sha256:REPLACE_WITH_SIGNED_DIGEST \
   --restart=Never --dry-run=server --command -- echo check
 sudo kubectl run test-no-policy --namespace=workshop-signature-check \
   --image=alpine:latest --restart=Never --dry-run=server --command -- echo check

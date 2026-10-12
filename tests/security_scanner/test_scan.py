@@ -96,8 +96,8 @@ def pods(*pod_specs):
                       for phase, images in pod_specs]}
 
 
-IMAGE_A = "ghcr.io/chas-challenge-team5/company-website@sha256:" + "a" * 64
-IMAGE_B = "ghcr.io/chas-challenge-team5/company-website@sha256:" + "b" * 64
+IMAGE_A = "ghcr.io/itsx25-chas/company-website@sha256:" + "a" * 64
+IMAGE_B = "ghcr.io/itsx25-chas/company-website@sha256:" + "b" * 64
 
 
 def shells():

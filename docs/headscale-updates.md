@@ -14,7 +14,7 @@ på nytt efter en VM-ersättning, tillsammans med återställningen av Headscale
 
 ## Ansvar och releasebevakning
 
-Ansvarig är den tilldelade personen i [#89](https://github.com/Chas-Challenge-Team5/itsx25-infra/issues/89)
+Ansvarig är den tilldelade personen i [#89](https://github.com/ITSX25-Chas/itsx25-infra/issues/89)
 (Viktor vid upprättandet). Vid överlämning dokumenteras ny ansvarig i ärendet.
 Headscales releasebevakning automatiseras av workflowen **Headscale release
 monitor** (`.github/workflows/headscale-releases.yml`). Den kör dagligen cirka
@@ -84,7 +84,7 @@ sårbarheter.
 
 ## Förutsättningar före aktivering
 
-1. [#85](https://github.com/Chas-Challenge-Team5/itsx25-infra/issues/85) ska vara
+1. [#85](https://github.com/ITSX25-Chas/itsx25-infra/issues/85) ska vara
    införd och verifierad: raderingsskydd, minst en aktuell snapshot och ett
    dokumenterat återställningsprov enligt den isolerade metoden i
    [backupguiden](headscale-backup.md). Anslut inte en bootdiskkopia till

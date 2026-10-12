@@ -13,12 +13,12 @@ import unittest
 from celpy import CELEvalError, Environment, json_to_cel
 
 
-REPOSITORY = "Chas-Challenge-Team5/itsx25-infra"
+REPOSITORY = "ITSX25-Chas/itsx25-infra"
 WORKFLOW = f"{REPOSITORY}/.github/workflows/deploy.yml@refs/heads/main"
 VALID = {
     "repository": REPOSITORY,
     "repository_id": "1360159280",
-    "repository_owner_id": "326026601",
+    "repository_owner_id": "339681285",
     "ref": "refs/heads/main",
     "workflow_ref": WORKFLOW,
     "event_name": "push",
