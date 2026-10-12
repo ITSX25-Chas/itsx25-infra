@@ -10,7 +10,7 @@ OS Login-anropen loggas som **Data Access-loggar** (private logs). För att se d
 
 - `roles/logging.privateLogViewer`
 
-Enbart `roles/logging.viewer` räcker **inte**. Med den rollen returneras noll rader, och det ser ut som att loggningen är avstängd fast den inte är det. Se [#116](https://github.com/Chas-Challenge-Team5/itsx25-infra/issues/116).
+Enbart `roles/logging.viewer` räcker **inte**. Med den rollen returneras noll rader, och det ser ut som att loggningen är avstängd fast den inte är det. Se [#116](https://github.com/ITSX25-Chas/itsx25-infra/issues/116).
 
 ---
 

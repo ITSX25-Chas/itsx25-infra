@@ -17,7 +17,7 @@ Samma seriella logg innehöll både `prohibited by secure boot policy` och
 Felsökningen identifierade en osignerad, låst kärna. En signerad ersättningskärna
 testades senare samma dag med Secure Boot på en separat VM, men den ordinarie
 jumphosten och grundimagen har ännu inte fått kärnbytet.
-Införandet hanteras i [issue #63](https://github.com/Chas-Challenge-Team5/itsx25-infra/issues/63).
+Införandet hanteras i [issue #63](https://github.com/ITSX25-Chas/itsx25-infra/issues/63).
 `enable_secure_boot` var då som standard `false` så att OS Login kunde införas
 separat från kärnbytet. vTPM och integrity monitoring behölls aktiverade genom
 hela övergången. Secure Boot är nu aktiverat för båda maskinerna (#63, #79, #81).
@@ -27,7 +27,7 @@ Efter testet återställdes VM:n till tidigare SSH-metadata och Secure Boot av.
 SSH, sudo och SOCKS verifierades igen; root-planen mot main visade inga ändringar.
 De fem IAM-tilldelningarna behölls, och `access/` visade också inga ändringar.
 OS Login är alltså testat men ännu inte permanent infört. Se även testresultatet
-i [issue #12](https://github.com/Chas-Challenge-Team5/itsx25-infra/issues/12).
+i [issue #12](https://github.com/ITSX25-Chas/itsx25-infra/issues/12).
 
 Alla fem användare får `roles/compute.osAdminLogin` på endast `team5-jumphost`
 i `itsx25-lab`, zon `europe-north2-b`. Listan finns i `access/terraform.tfvars`.

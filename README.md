@@ -1,14 +1,14 @@
 # ITSX25 – Infrastruktur
 
-[![Deploy](https://github.com/Chas-Challenge-Team5/itsx25-infra/actions/workflows/deploy.yml/badge.svg?branch=main&event=push)](https://github.com/Chas-Challenge-Team5/itsx25-infra/actions/workflows/deploy.yml)
-[![PR-kontroller](https://github.com/Chas-Challenge-Team5/itsx25-infra/actions/workflows/pr-checks.yml/badge.svg?event=pull_request)](https://github.com/Chas-Challenge-Team5/itsx25-infra/actions/workflows/pr-checks.yml)
+[![Deploy](https://github.com/ITSX25-Chas/itsx25-infra/actions/workflows/deploy.yml/badge.svg?branch=main&event=push)](https://github.com/ITSX25-Chas/itsx25-infra/actions/workflows/deploy.yml)
+[![PR-kontroller](https://github.com/ITSX25-Chas/itsx25-infra/actions/workflows/pr-checks.yml/badge.svg?event=pull_request)](https://github.com/ITSX25-Chas/itsx25-infra/actions/workflows/pr-checks.yml)
 [![Terraform 1.16.1](https://img.shields.io/badge/Terraform-1.16.1-844FBA?logo=terraform&logoColor=white)](.github/workflows/deploy.yml)
-[![Öppna issues](https://img.shields.io/github/issues/Chas-Challenge-Team5/itsx25-infra?label=issues)](https://github.com/Chas-Challenge-Team5/itsx25-infra/issues)
-[![Öppna PR:er](https://img.shields.io/github/issues-pr/Chas-Challenge-Team5/itsx25-infra?label=pull%20requests)](https://github.com/Chas-Challenge-Team5/itsx25-infra/pulls)
+[![Öppna issues](https://img.shields.io/github/issues/ITSX25-Chas/itsx25-infra?label=issues)](https://github.com/ITSX25-Chas/itsx25-infra/issues)
+[![Öppna PR:er](https://img.shields.io/github/issues-pr/ITSX25-Chas/itsx25-infra?label=pull%20requests)](https://github.com/ITSX25-Chas/itsx25-infra/pulls)
 
 Terraform för Team 5:s labbmiljö i Google Cloud. Infrastrukturen förvaltas genom GitHub Actions, med Terraform-state i Google Cloud Storage.
 
-Planerat arbete, säkerhetsfynd och verifieringsresultat finns i [Issues](https://github.com/Chas-Challenge-Team5/itsx25-infra/issues?q=is%3Aissue). Ändringar granskas i [Pull requests](https://github.com/Chas-Challenge-Team5/itsx25-infra/pulls).
+Planerat arbete, säkerhetsfynd och verifieringsresultat finns i [Issues](https://github.com/ITSX25-Chas/itsx25-infra/issues?q=is%3Aissue). Ändringar granskas i [Pull requests](https://github.com/ITSX25-Chas/itsx25-infra/pulls).
 
 ## Miljön
 
@@ -84,7 +84,7 @@ Google IAP
 ## Dokumentation
 
 - [docs/internal-firewall.md](docs/internal-firewall.md) – intern brandvägg och NAT
-- [docs/os-login.md](docs/os-login.md) – OS Login-underlaget, se även säkerhetsärendena i [Issues](https://github.com/Chas-Challenge-Team5/itsx25-infra/issues?q=is%3Aissue)
+- [docs/os-login.md](docs/os-login.md) – OS Login-underlaget, se även säkerhetsärendena i [Issues](https://github.com/ITSX25-Chas/itsx25-infra/issues?q=is%3Aissue)
 - [docs/spectre-tailnet.md](docs/spectre-tailnet.md) – Spectre, Split DNS och tailnätets rutter
 - [docs/headscale-backup.md](docs/headscale-backup.md) – backup av Headscale (#85)
 

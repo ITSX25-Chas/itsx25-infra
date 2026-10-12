@@ -5,13 +5,13 @@ metadata:
 spec:
   mode: enforce
   images:
-    - glob: ghcr.io/chas-challenge-team5/company-website@sha256:*
+    - glob: ghcr.io/itsx25-chas/company-website@sha256:*
   authorities:
     - name: github-main-deploy
       keyless:
         url: https://fulcio.sigstore.dev
         identities:
           - issuer: https://token.actions.githubusercontent.com
-            subject: https://github.com/Chas-Challenge-Team5/company-website/.github/workflows/deploy.yml@refs/heads/main
+            subject: https://github.com/ITSX25-Chas/company-website/.github/workflows/deploy.yml@refs/heads/main
       ctlog:
         url: https://rekor.sigstore.dev

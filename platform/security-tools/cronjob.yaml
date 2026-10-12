@@ -44,7 +44,7 @@ spec:
                   value: app=company-website
                 # Samma identitet som ClusterImagePolicy verify-company-website.
                 - name: CERT_IDENTITY
-                  value: https://github.com/Chas-Challenge-Team5/company-website/.github/workflows/deploy.yml@refs/heads/main
+                  value: https://github.com/ITSX25-Chas/company-website/.github/workflows/deploy.yml@refs/heads/main
                 - name: CERT_OIDC_ISSUER
                   value: https://token.actions.githubusercontent.com
               securityContext:
