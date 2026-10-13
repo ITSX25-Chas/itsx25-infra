@@ -20,8 +20,8 @@ import time
 from urllib.parse import urlsplit
 from urllib.request import urlopen
 
-VERSION = "0.29.4"
-PACKAGE_SHA256 = "1f65364716ae1fcc3845b1a65a47583469022e9c6f194dfdfeb25403f89f0841"
+VERSION = "0.29.5"
+PACKAGE_SHA256 = "9e8ec12a65229435863a2cdf5082853c282808e845efd3a1f0b0c02b8f84d723"
 PACKAGE_URL = f"https://github.com/juanfont/headscale/releases/download/v{VERSION}/headscale_{VERSION}_linux_amd64.deb"
 USERS = ("admin", "adam", "armin", "abdi", "mattej", "viktor")
 # The lab zone is resolved by dnsmasq on the jumphost (#51).
