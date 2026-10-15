@@ -12,7 +12,7 @@ Planerat arbete, säkerhetsfynd och verifieringsresultat finns i [Issues](https:
 
 ## Miljön
 
-Miljön ligger i regionen `europe-north2` i GCP-projektet `itsx25-lab`, som delas med andra team. Terraform använder den befintliga VPC:n `team5-vpc` och förvaltar subnätet `10.0.5.0/24`.
+Miljön ligger i regionen `europe-north2` i GCP-projektet `itsx25-comerit`, som delas med andra team. Terraform använder den befintliga VPC:n `team5-vpc` och förvaltar subnätet `10.0.5.0/24`.
 
 Jumphosten `team5-jumphost` har privat IP `10.0.5.2`, extern IP och IP-forwarding/NAT för teamets subnät. Teamet ansluter med SSH via Google IAP på TCP/22. Instruktörens SSH tillåts från det konfigurerade instruktörsnätet. Jumphosten startas 08:00 och stoppas 00:00 enligt tidszonen `Europe/Stockholm`.
 
@@ -45,7 +45,7 @@ Google IAP
         | TCP/22
         v
 +------------------------------------------------------------------+
-| GCP-projekt: itsx25-lab                                          |
+| GCP-projekt: itsx25-comerit                                      |
 |                                                                  |
 |  +-----------------------------+     Instruktörsnät              |
 |  | team5-vpc                   |     10.0.0.0/24                 |

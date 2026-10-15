@@ -1,4 +1,4 @@
-project_id = "itsx25-lab"
+project_id = "itsx25-comerit"
 team_id    = 5
 
 # The existing jumphost must boot the signed kernel before this is applied.
