@@ -14,7 +14,7 @@ concurrency:
 
 env:
   # Plans stay in the private state bucket, never in public artifacts.
-  PLAN_BUCKET: team5-tfstate-f7036a24
+  PLAN_BUCKET: itsx25-comerit-team5-tfstate
 
 jobs:
   plan:
